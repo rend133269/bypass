@@ -24,7 +24,7 @@ echo geturl($_GET['url']);
         //curl_setopt($process, CURLOPT_PROXYPORT, "80");
 
 
-        //andithomas
+
         $return = curl_exec($process); 
         curl_close($process); 
         
